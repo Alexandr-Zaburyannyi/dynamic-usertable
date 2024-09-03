@@ -23,8 +23,15 @@ function App() {
 
   return (
     <Flex
+      m='auto'
       align='center'
       direction='column'
+      w={{
+        xs: '40%',
+        sm: '70%',
+        lg: '100%',
+      }}
+      style={{ overflow: 'initial', objectFit: 'fill' }}
     >
       <Text
         tt='capitalize'

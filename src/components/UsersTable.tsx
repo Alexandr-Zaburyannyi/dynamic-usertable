@@ -25,9 +25,9 @@ const UsersTable = () => {
     const filteredUsers =
       name || username || email || phone
         ? users.filter((user: User) =>
-            user.name.toLowerCase().startsWith(name) &&
-            user.username.toLowerCase().startsWith(username) &&
-            user.email.toLowerCase().startsWith(email) &&
+            user.name.toLowerCase().startsWith(name.toLowerCase()) &&
+            user.username.toLowerCase().startsWith(username.toLowerCase()) &&
+            user.email.toLowerCase().startsWith(email.toLowerCase()) &&
             user.phone.includes(phone)
               ? user
               : null
@@ -46,12 +46,11 @@ const UsersTable = () => {
         xs: '40%',
       }}
       withColumnBorders
-      // horizontalSpacing={{ lg: 'lg' }}
       verticalSpacing='sm'
     >
       <Table.Thead>
         <Table.Tr>
-          <Table.Th w={'20%'}>
+          <Table.Th>
             <Text
               tt='capitalize'
               fw={600}
@@ -79,7 +78,7 @@ const UsersTable = () => {
               }}
             />
           </Table.Th>
-          <Table.Th w={'20%'}>
+          <Table.Th>
             <Text
               tt='capitalize'
               fw={600}
@@ -106,7 +105,7 @@ const UsersTable = () => {
               }}
             />
           </Table.Th>
-          <Table.Th w={'20%'}>
+          <Table.Th>
             <Text
               tt='capitalize'
               fw={600}
@@ -133,7 +132,7 @@ const UsersTable = () => {
               }}
             />
           </Table.Th>
-          <Table.Th w={'20%'}>
+          <Table.Th>
             <Text
               tt='capitalize'
               fw={600}
