@@ -33,7 +33,7 @@ function App() {
       h={'100vh'}
       style={{
         overflow: 'visible',
-        transform: min ? 'scale(1)' : 'scale(0.8)',
+        transform: min ? 'scale(1)' : 'scale(0.7)',
       }}
     >
       <Text
