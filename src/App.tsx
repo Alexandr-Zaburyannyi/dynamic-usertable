@@ -30,6 +30,7 @@ function App() {
         xs: '40%',
         sm: '70%',
         lg: '100%',
+        xl: '100%',
       }}
       style={{ overflow: 'initial', objectFit: 'fill' }}
     >

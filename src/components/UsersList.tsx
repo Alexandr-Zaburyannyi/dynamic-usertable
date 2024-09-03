@@ -18,6 +18,7 @@ const UsersList = () => {
             fw={600}
             variant='gradient'
             gradient={gradientColor}
+            size={'sm'}
           >
             {name}
           </Text>
@@ -27,6 +28,7 @@ const UsersList = () => {
             fw={600}
             variant='gradient'
             gradient={gradientColor}
+            size={'sm'}
           >
             {username}
           </Text>
@@ -36,8 +38,7 @@ const UsersList = () => {
             fw={600}
             variant='gradient'
             gradient={gradientColor}
-            lineClamp={2}
-            truncate
+            size={'sm'}
           >
             {email}
           </Text>
@@ -47,6 +48,7 @@ const UsersList = () => {
             fw={600}
             variant='gradient'
             gradient={gradientColor}
+            size={'sm'}
           >
             {phone}
           </Text>

@@ -38,7 +38,7 @@ const UsersTable = () => {
 
   return (
     <Table
-      mx={10}
+      mx={30}
       w={{
         md: '70%',
         lg: '95%',
@@ -71,7 +71,7 @@ const UsersTable = () => {
             </Text>
             <Input
               variant='filled'
-              my={10}
+              my={5}
               value={name}
               onChange={(event) => {
                 return dispatch(setNameFilter(event.currentTarget.value));
@@ -98,7 +98,7 @@ const UsersTable = () => {
             </Text>
             <Input
               variant='filled'
-              my={10}
+              my={5}
               value={username}
               onChange={(event) => {
                 return dispatch(setUsernameFilter(event.currentTarget.value));
@@ -125,7 +125,7 @@ const UsersTable = () => {
             </Text>
             <Input
               variant='filled'
-              my={10}
+              my={5}
               value={email}
               onChange={(event) => {
                 return dispatch(setEmailFilter(event.currentTarget.value));
@@ -152,7 +152,7 @@ const UsersTable = () => {
             </Text>
             <InputBase
               variant='filled'
-              my={10}
+              my={5}
               value={phone}
               component={IMaskInput}
               mask='000-000-0000'
