@@ -39,6 +39,7 @@ const UsersList = () => {
             variant='gradient'
             gradient={gradientColor}
             size={'sm'}
+            style={{ textWrap: 'wrap' }}
           >
             {email}
           </Text>

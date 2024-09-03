@@ -38,7 +38,7 @@ const UsersTable = () => {
 
   return (
     <Table
-      mx={30}
+      style={{ overflowX: 'visible' }}
       w={{
         md: '70%',
         lg: '95%',
@@ -46,7 +46,7 @@ const UsersTable = () => {
         xs: '40%',
       }}
       withColumnBorders
-      verticalSpacing='sm'
+      verticalSpacing='md'
     >
       <Table.Thead>
         <Table.Tr>

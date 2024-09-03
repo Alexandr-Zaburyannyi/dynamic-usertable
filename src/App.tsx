@@ -26,13 +26,8 @@ function App() {
       m='auto'
       align='center'
       direction='column'
-      w={{
-        xs: '40%',
-        sm: '70%',
-        lg: '100%',
-        xl: '100%',
-      }}
-      style={{ overflow: 'initial', objectFit: 'fill' }}
+      w={'100%'}
+      style={{ overflowX: 'auto' }}
     >
       <Text
         tt='capitalize'
